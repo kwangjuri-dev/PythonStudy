@@ -15,7 +15,7 @@ if uploaded_file is not None:
     # font_path = './NanumGothic.ttf'  # 예: 'fonts/NanumGothic.ttf'
 
     # WordCloud 객체 생성
-    wordcloud = WordCloud(font_path=font_path, width=800, height=400, background_color='white').generate(text_data)
+    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text_data)
 
     # 워드클라우드 그리기
     plt.figure(figsize=(10, 5))
