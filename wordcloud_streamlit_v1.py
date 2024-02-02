@@ -1,3 +1,6 @@
+# wordcloud in streamlit share
+# 최종 버전
+
 import streamlit as st
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
