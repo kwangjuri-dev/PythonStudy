@@ -12,7 +12,7 @@ if uploaded_file is not None:
     text_data = uploaded_file.read().decode('utf-8')
 
     # 한글 폰트 파일 경로 지정
-    font_path = 'NanumGothic.ttf'  # 예: 'fonts/NanumGothic.ttf'
+    font_path = './NanumGothic.ttf'  # 예: 'fonts/NanumGothic.ttf'
 
     # WordCloud 객체 생성
     wordcloud = WordCloud(font_path=font_path, width=800, height=400, background_color='white').generate(text_data)
