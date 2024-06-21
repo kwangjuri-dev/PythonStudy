@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # 상수 정의
-API_KEY = '%2FGWeXDVICEYiihLtJFWegEFmlNRZMdTIxn2xCOk3VlyjxHzF2jeL2gqLfzDDIJPkL5DxfmXbpA4wEDvL1QaQLQ%3D%3D'
+API_KEY = 'api_key'
 
 BASE_URL = 'https://apis.data.go.kr/1230000/BidPublicInfoService04/getBidPblancListInfoServc01'
 
